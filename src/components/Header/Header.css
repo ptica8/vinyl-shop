@@ -1,0 +1,47 @@
+.header {
+    padding: 15px 0 14px 20px;
+    display: flex;
+}
+
+.header__container {
+    width: 50%;
+    border-right: 1px solid #D0D0D0;
+    display: flex;
+    align-items: center;
+}
+
+.header__container-2 {
+    padding-left: 20px;
+}
+
+.header__link-main {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 48px;
+}
+
+.header__links {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 48px;
+}
+
+.header__links:last-child {
+    margin-right: 0;
+}
+
+.header__button {
+    background-image: url('../../images/icon-search.svg');
+    background-repeat: no-repeat;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}

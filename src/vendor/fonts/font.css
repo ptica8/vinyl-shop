@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Suisse Intl';
+    font-style:  normal;
+    font-display: swap;
+    src: url("Suisse Int'l.woff2") format("woff2"),
+    url("Suisse Int'l.woff") format("woff");
+}
