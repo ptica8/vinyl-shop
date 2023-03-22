@@ -11,10 +11,12 @@ export default function Header() {
 				<Link className="header__links" to="/">New Items</Link>
 				<Link className="header__links" to="/">Sale</Link>
 			</div>
+			<hr className="line header__line"/>
 			<div className="header__container header__container-2">
 				<Link className="header__links" to="/">Info</Link>
 				<Link className="header__links" to="/">Cart (0)</Link>
 				<button type="submit" className="header__button header__links">
+					<div className="header__button_img"></div>
 					Search
 				</button>
 			</div>
