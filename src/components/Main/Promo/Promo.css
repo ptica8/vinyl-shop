@@ -1,0 +1,67 @@
+.promo {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.promo__item {
+    width: 50%;
+    height: 600px;
+    background-color: #F2F2F2;
+}
+
+.promo__item_text {
+    position: absolute;
+    margin: 0;
+    padding: 28px 0 0 24px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.promo__item_img {
+    width: 100%;
+    padding-top: 55px;
+}
+
+.promo__item_img-half {
+    width: 50%;
+}
+
+.promo__item:nth-child(2) {
+    background-color: #FFFFFF;
+}
+
+.promo__item_img-half-first {
+    background-color: #FFFFFF;
+}
+
+.promo__item_img-half-second {
+    height: 600px;
+    background-color: #222222;
+}
+
+.promo__item_text-half {
+    position: absolute;
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.promo__item_text-top {
+    padding: 16px 0 0 15px;
+    width: 344px;
+    color: #000000;
+}
+
+.promo__item_text-bottom {
+    padding-bottom: 16px;
+    width: 277px;
+    bottom: 50%;
+    right: 22px;
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+}
