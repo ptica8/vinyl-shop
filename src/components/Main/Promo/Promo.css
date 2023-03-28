@@ -23,7 +23,7 @@
 
 .promo__item_img {
     width: 100%;
-    padding-top: 55px;
+    padding-top: 30px;
 }
 
 .promo__item_img-half {
@@ -61,7 +61,7 @@
     padding-bottom: 16px;
     width: 277px;
     bottom: 50%;
-    right: 22px;
+    right: 62px;
     color: #FFFFFF;
     letter-spacing: -0.02em;
 }

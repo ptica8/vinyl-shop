@@ -1,11 +1,15 @@
 .footer {
-    padding: 55px 0 75px 20px;
+    padding: 55px 90px 75px 20px;
     display: flex;
     justify-content: space-between;
 }
 
 .footer__subscribe {
     width: 451px;
+}
+
+.footer__subscribe_logo {
+    margin-right: 0;
 }
 
 .footer__subscribe_info {
