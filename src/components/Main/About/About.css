@@ -1,0 +1,45 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #000000;
+}
+
+.about__intro {
+    width: 429px;
+    margin: 61px 0 151px 24px;
+    letter-spacing: -0.02em;
+}
+
+.about__intro_title {
+    margin: 0;
+    padding-bottom: 4px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 54px;
+}
+
+.about__intro_subtitle {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.about__description {
+    width: 630px;
+    margin: 65px 66px 137px 0;
+}
+
+.about__description_subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.about__description_subtitle:last-child {
+    padding-bottom: 0;
+}
