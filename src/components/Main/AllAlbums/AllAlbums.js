@@ -4,7 +4,7 @@ export default function AllAlbums() {
 	return (
 		<section className="allAlbums">
 			<div className="allAlbums__pic">
-				<h2 className="allAlbums__pic_title">View all albums</h2>
+				<h2 className="allAlbums__pic_title">Sell your records</h2>
 			</div>
 			<div className="allAlbums__description">
 				<p className="allAlbums__pic_subtitle">
@@ -16,6 +16,7 @@ export default function AllAlbums() {
 				<p className="allAlbums__pic_subtitle">
 					If you are interested in selling your collection, please give us a call or email us.
 				</p>
+				<button type="button" className="allAlbums__description_btn">View all albums</button>
 			</div>
 		</section>
 	)

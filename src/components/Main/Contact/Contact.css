@@ -1,0 +1,45 @@
+.contact {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.contact__addresses {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.contact__addresses_item {
+    border-bottom: 1px solid #D0D0D0;
+    border-right: 1px solid #D0D0D0;
+    width: 100%;
+}
+
+.contact__addresses_item:nth-child(3) {
+    border-bottom: none;
+}
+
+.contact__addresses_item-text {
+    padding: 52px 0 0 40px;
+    margin: 0;
+    text-align: left;
+    white-space: pre-line;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    width: 243px;
+}
+
+.contact__pic {
+    background-image: url('../../../images/contact-pic.png');
+    background-size: cover;
+    width: 50%;
+    height: 557px;
+    border-left: 1px solid #D0D0D0;
+}
