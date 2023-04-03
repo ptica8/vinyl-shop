@@ -8,6 +8,7 @@
     width: 50%;
     height: 600px;
     background-color: #F2F2F2;
+    border-bottom: 1px solid #D0D0D0;
 }
 
 .promo__item_text {
@@ -22,7 +23,6 @@
 }
 
 .promo__item_img {
-    width: 100%;
     padding-top: 30px;
 }
 
